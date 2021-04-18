@@ -4,12 +4,15 @@ sans-serif;
 $playFairDisplay_font : 'Playfair Display',
 serif;
 $dark_blue_color_primary :#071C4D;
-$dark_blue_color_primary_hover :#082f8a;
+$dark_blue_color_primary_button :#03045e;
+$dark_blue_color_primary_button_hover :#14213d;
 $dark_blue_color_secondary : #051334;
 $grey_color_bg : #E4E6EB;
 $light_grey_color_button : #F2F2F2;
 $dark_grey_color_button : #C3C3C3;
-$orange_color : #FF9E53;
+$orange_color : #fb8500;
+$orange_color_hover : #f3722c;
+
 
 body {
     background-color: $white_color;
@@ -17,6 +20,7 @@ body {
     color: $dark_blue_color_primary;
 }
 
+// Navbar
 .navbar-brand {
     img {
         max-height: 50px;
@@ -34,12 +38,12 @@ body {
 }
 
 .btn-login {
-    background-color: $dark_blue_color_primary;
+    background-color: $dark_blue_color_primary_button;
     color: $white_color;
     font-size: 20px;
 
     &:hover {
-        background-color: $dark_blue_color_primary_hover;
+        background-color: $dark_blue_color_primary_button_hover;
         color: $white_color;
     }
 }
@@ -54,6 +58,37 @@ body {
                 font-weight: bold;
                 color: $dark_blue_color_primary !important;
             }
+        }
+    }
+}
+
+// Header 
+header {
+    margin-top: -70px;
+    height: 650px;
+    padding-top: 180px;
+    padding-bottom: 165px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header@2x.png);
+    color: $white_color;
+
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: $playFairDisplay_font;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: $orange_color;
+        color: $white_color;
+
+        &:hover {
+            background-color: $orange_color_hover;
+            color: $white_color;
         }
     }
 }

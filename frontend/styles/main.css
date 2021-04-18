@@ -19,13 +19,13 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #03045e;
   color: #FFFFFF;
   font-size: 20px;
 }
 
 .btn-login:hover {
-  background-color: #082f8a;
+  background-color: #14213d;
   color: #FFFFFF;
 }
 
@@ -37,5 +37,36 @@ body {
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: bold;
   color: #071C4D !important;
+}
+
+header {
+  margin-top: -70px;
+  height: 650px;
+  padding-top: 180px;
+  padding-bottom: 165px;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/header@2x.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header@2x.png);
+  color: #FFFFFF;
+}
+
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #fb8500;
+  color: #FFFFFF;
+}
+
+header .btn-get-started:hover {
+  background-color: #f3722c;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=main.css.map */
