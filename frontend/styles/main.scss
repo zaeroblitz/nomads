@@ -1,5 +1,59 @@
+$white_color : #FFFFFF;
+$assistant_font : 'Assistant',
+sans-serif;
+$playFairDisplay_font : 'Playfair Display',
+serif;
+$dark_blue_color_primary :#071C4D;
+$dark_blue_color_primary_hover :#082f8a;
+$dark_blue_color_secondary : #051334;
+$grey_color_bg : #E4E6EB;
+$light_grey_color_button : #F2F2F2;
+$dark_grey_color_button : #C3C3C3;
+$orange_color : #FF9E53;
+
+body {
+    background-color: $white_color;
+    font-family: $assistant_font;
+    color: $dark_blue_color_primary;
+}
+
 .navbar-brand {
     img {
         max-height: 50px;
+        max-width: 188px;
+    }
+}
+
+.btn-desktop {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 70px;
+    width: 120px;
+    border-radius: 0px;
+}
+
+.btn-login {
+    background-color: $dark_blue_color_primary;
+    color: $white_color;
+    font-size: 20px;
+
+    &:hover {
+        background-color: $dark_blue_color_primary_hover;
+        color: $white_color;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: $dark_blue_color_primary;
+            font-size: 20px;
+
+            &.active {
+                font-weight: bold;
+                color: $dark_blue_color_primary !important;
+            }
+        }
     }
 }

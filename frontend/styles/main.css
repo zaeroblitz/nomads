@@ -1,4 +1,41 @@
+body {
+  background-color: #FFFFFF;
+  font-family: "Assistant", sans-serif;
+  color: #071C4D;
+}
+
 .navbar-brand img {
   max-height: 50px;
+  max-width: 188px;
+}
+
+.btn-desktop {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  width: 120px;
+  border-radius: 0px;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.btn-login:hover {
+  background-color: #082f8a;
+  color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+  font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
 }
 /*# sourceMappingURL=main.css.map */
