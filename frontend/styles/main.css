@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #E4E6EB;
   font-family: "Assistant", sans-serif;
   color: #071C4D;
 }
@@ -13,7 +13,7 @@ body {
   margin-top: -10px !important;
   margin-bottom: -8px !important;
   margin-right: -18px !important;
-  height: 70px;
+  height: 78px;
   width: 120px;
   border-radius: 0px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 header {
-  margin-top: -70px;
+  margin-top: -80px;
   height: 650px;
   padding-top: 180px;
   padding-bottom: 165px;
@@ -68,5 +68,47 @@ header .btn-get-started {
 header .btn-get-started:hover {
   background-color: #f3722c;
   color: #FFFFFF;
+}
+
+.section-stats {
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 640px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 16px;
+}
+
+.section-stats .stats-detail h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.section-stats .stats-detail p {
+  font: 20px;
+  font-weight: lighter;
+}
+
+@media (max-width: 400px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header p {
+    font-size: 20px;
+  }
+  .section-stats {
+    margin-top: -40px;
+  }
+  .section-stats .stats-detail h2 {
+    font-size: 20px;
+  }
+  .section-stats .stats-detail p {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
