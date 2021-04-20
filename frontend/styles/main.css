@@ -1,22 +1,20 @@
 body {
-  background-color: #E4E6EB;
+  background-color: #FFFFFF;
   font-family: "Assistant", sans-serif;
   color: #071C4D;
   margin-bottom: 20px;
 }
 
+.navbar {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.25);
+}
+
 .navbar-brand img {
   max-height: 50px;
   max-width: 188px;
-}
-
-.btn-desktop {
-  margin-top: -10px !important;
-  margin-bottom: -8px !important;
-  margin-right: -18px !important;
-  height: 78px;
-  width: 120px;
-  border-radius: 0px;
 }
 
 .btn-login {
@@ -28,6 +26,16 @@ body {
 .btn-login:hover {
   background-color: #14213d;
   color: #FFFFFF;
+}
+
+.btn-desktop {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 78px;
+  width: 120px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 0px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -79,7 +87,9 @@ header .btn-get-started:hover {
   margin-right: auto;
   max-width: 640px;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.75);
 }
 
 .section-stats .stats-detail {
@@ -153,6 +163,9 @@ header .btn-get-started:hover {
   padding: 30px;
   height: 380px;
   background-size: cover;
+  border-radius: 4px;
+  -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 .section-popular-content .section-popular-travel .card-travel .travel-country {
@@ -177,6 +190,55 @@ header .btn-get-started:hover {
 @media (max-width: 575px) {
   .section-popular-content .section-popular-travel .card-travel {
     margin: 20px;
+  }
+}
+
+.section-networks {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section-networks h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-networks p {
+  font-size: 18px;
+}
+
+.section-networks .img-partner {
+  background-size: cover;
+  max-width: 100%;
+  margin-right: 12px;
+}
+
+@media (max-width: 991px) {
+  .section-networks h2 {
+    font-size: 24px;
+  }
+  .section-networks p {
+    font-size: 14px;
+  }
+  .section-networks .img-partner {
+    background-size: cover;
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-networks h2 {
+    font-size: 22px;
+  }
+  .section-networks p {
+    font-size: 12px;
+  }
+  .section-networks .img-partner {
+    background-size: cover;
+    width: 70px;
+    margin-right: 8px;
   }
 }
 /*# sourceMappingURL=main.css.map */
