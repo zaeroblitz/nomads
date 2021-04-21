@@ -194,6 +194,7 @@ header .btn-get-started:hover {
 }
 
 .section-networks {
+  position: relative;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -301,6 +302,7 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial {
+  position: relative;
   height: 510px;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#F7F9FF));
   background: linear-gradient(white, #F7F9FF);
@@ -322,7 +324,11 @@ header .btn-get-started:hover {
   font-size: 18px;
 }
 
-.section-testimonial .section-testimonial-card {
+.section-testimonial-content {
+  margin-top: -320px;
+}
+
+.section-testimonial-content .section-testimonial-card {
   margin-top: 70px;
   margin-bottom: 50px;
   background-color: #FFFFFF;
@@ -332,11 +338,11 @@ header .btn-get-started:hover {
   outline: none;
 }
 
-.section-testimonial .section-testimonial-card .card-profile-pic {
+.section-testimonial-content .section-testimonial-card .card-profile-pic {
   margin-top: 30px;
 }
 
-.section-testimonial .section-testimonial-card .card-profile-pic img {
+.section-testimonial-content .section-testimonial-card .card-profile-pic img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -345,13 +351,13 @@ header .btn-get-started:hover {
      object-fit: cover;
 }
 
-.section-testimonial .section-testimonial-card .card-name {
+.section-testimonial-content .section-testimonial-card .card-name {
   color: #071C4D;
   margin-top: 18px;
   font-size: 22px;
 }
 
-.section-testimonial .section-testimonial-card .card-message {
+.section-testimonial-content .section-testimonial-card .card-message {
   margin: 0px 24px 20px 24px;
   min-height: 150px;
   max-height: 154px;
@@ -359,9 +365,43 @@ header .btn-get-started:hover {
   font-weight: lighter;
 }
 
-.section-testimonial .section-testimonial-card .card-footer {
+.section-testimonial-content .section-testimonial-card .card-footer {
   padding: 26px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.section-buttons {
+  margin-bottom: 50px;
+}
+
+.section-buttons .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+}
+
+.section-buttons .btn-need-help:hover {
+  background-color: #E4E6EB;
+  color: #C3C3C3;
+  font-weight: bold;
+}
+
+.section-buttons .btn-get-started {
+  background-color: #fb8500;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+}
+
+.section-buttons .btn-get-started:hover {
+  background-color: #c26b09;
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  padding: 50px;
 }
 /*# sourceMappingURL=main.css.map */

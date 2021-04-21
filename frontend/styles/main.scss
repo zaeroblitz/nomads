@@ -235,6 +235,7 @@ header {
 
 // Section Networks
 .section-networks {
+    position: relative;
     margin-top: 100px;
     margin-bottom: 100px;
 
@@ -347,6 +348,7 @@ header {
 
 // Section Testimonial
 .section-testimonial {
+    position: relative;
     height: 510px;
     background: linear-gradient(white, #F7F9FF);
 
@@ -365,6 +367,10 @@ header {
             font-size: 18px;
         }
     }
+}
+
+.section-testimonial-content {
+    margin-top: -320px;
 
     .section-testimonial-card {
         margin-top: 70px;
@@ -406,4 +412,39 @@ header {
             font-weight: bold;
         }
     }
+}
+
+.section-buttons {
+    margin-bottom: 50px;
+
+    .btn-need-help {
+        background-color: $light_grey_color_button;
+        color: $dark_grey_color_button;
+        padding: 10px 30px 10px 30px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $grey_color_bg;
+            color: $dark_grey_color_button;
+            font-weight: bold;
+        }
+    }
+
+    .btn-get-started {
+        background-color: $orange_color;
+        color: white;
+        padding: 10px 30px 10px 30px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $orange_color_hover;
+            color: white;
+            font-weight: bold;
+        }
+    }
+}
+
+// Footer
+footer {
+    padding: 50px;
 }
