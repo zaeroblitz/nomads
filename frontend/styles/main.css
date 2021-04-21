@@ -85,7 +85,7 @@ header .btn-get-started:hover {
   margin-top: -50px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 640px;
+  max-width: 600px;
   background-color: white;
   border-radius: 4px;
   -webkit-box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.75);
@@ -97,13 +97,13 @@ header .btn-get-started:hover {
 }
 
 .section-stats .stats-detail h2 {
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 0;
   font-weight: 600;
 }
 
 .section-stats .stats-detail p {
-  font: 20px;
+  font: 24px;
   font-weight: lighter;
 }
 
@@ -215,16 +215,38 @@ header .btn-get-started:hover {
 }
 
 @media (max-width: 991px) {
-  .section-networks h2 {
+  .section-networks .section-networks-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-networks .section-networks-header h2 {
     font-size: 24px;
+    margin-right: 16px;
   }
-  .section-networks p {
+  .section-networks .section-networks-header p {
     font-size: 14px;
+    margin-right: 8px;
   }
-  .section-networks .img-partner {
+  .section-networks .section-networks-partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-networks .section-networks-partner .img-partner {
     background-size: cover;
     width: 100px;
-    margin-right: 10px;
+    margin-right: 8px;
   }
 }
 
@@ -240,5 +262,106 @@ header .btn-get-started:hover {
     width: 70px;
     margin-right: 8px;
   }
+}
+
+@media (max-width: 575px) {
+  .section-networks .section-networks-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-networks .section-networks-header h2 {
+    font-size: 24px;
+    margin-right: 16px;
+  }
+  .section-networks .section-networks-header p {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .section-networks .section-networks-partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-networks .section-networks-partner .img-partner {
+    background-size: cover;
+    width: 70px;
+    margin-right: 8px;
+  }
+}
+
+.section-testimonial {
+  height: 510px;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(#F7F9FF));
+  background: linear-gradient(white, #F7F9FF);
+}
+
+.section-testimonial .section-testimonial-header {
+  margin: auto;
+  text-align: center;
+  color: #071C4D;
+}
+
+.section-testimonial .section-testimonial-header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-testimonial .section-testimonial-header p {
+  font-size: 18px;
+}
+
+.section-testimonial .section-testimonial-card {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  color: #6E6E6E;
+  text-align: center;
+  outline: none;
+}
+
+.section-testimonial .section-testimonial-card .card-profile-pic {
+  margin-top: 30px;
+}
+
+.section-testimonial .section-testimonial-card .card-profile-pic img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-testimonial .section-testimonial-card .card-name {
+  color: #071C4D;
+  margin-top: 18px;
+  font-size: 22px;
+}
+
+.section-testimonial .section-testimonial-card .card-message {
+  margin: 0px 24px 20px 24px;
+  min-height: 150px;
+  max-height: 154px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.section-testimonial .section-testimonial-card .card-footer {
+  padding: 26px;
+  font-size: 20px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */

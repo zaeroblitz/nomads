@@ -22,7 +22,6 @@ body {
 }
 
 // Navbar
-
 .navbar {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
@@ -109,7 +108,7 @@ header {
     margin-top: -50px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 640px;
+    max-width: 600px;
     background-color: white;
     border-radius: 4px;
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.75);
@@ -118,13 +117,13 @@ header {
         padding-top: 16px;
 
         h2 {
-            font-size: 30px;
+            font-size: 32px;
             margin-bottom: 0;
             font-weight: 600;
         }
 
         p {
-            font: 20px;
+            font: 24px;
             font-weight: lighter;
         }
     }
@@ -157,6 +156,7 @@ header {
     }
 }
 
+// Section Popular Heading
 .section-popular {
     position: relative;
     z-index: 0;
@@ -189,6 +189,7 @@ header {
     }
 }
 
+// Section Popular Travel
 .section-popular-content {
     .section-popular-travel {
         color: $white_color;
@@ -232,6 +233,7 @@ header {
     }
 }
 
+// Section Networks
 .section-networks {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -256,18 +258,33 @@ header {
 @media (max-width: 991px) {
 
     .section-networks {
-        h2 {
-            font-size: 24px;
+
+        .section-networks-header {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+
+            h2 {
+                font-size: 24px;
+                margin-right: 16px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-right: 8px;
+            }
         }
 
-        p {
-            font-size: 14px;
-        }
+        .section-networks-partner {
+            display: flex;
+            align-content: center;
+            justify-content: center;
 
-        .img-partner {
-            background-size: cover;
-            width: 100px;
-            margin-right: 10px;
+            .img-partner {
+                background-size: cover;
+                width: 100px;
+                margin-right: 8px;
+            }
         }
     }
 
@@ -291,4 +308,102 @@ header {
         }
     }
 
+}
+
+@media (max-width: 575px) {
+
+    .section-networks {
+
+        .section-networks-header {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+
+            h2 {
+                font-size: 24px;
+                margin-right: 16px;
+            }
+
+            p {
+                font-size: 14px;
+                margin-right: 8px;
+            }
+        }
+
+        .section-networks-partner {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+
+            .img-partner {
+                background-size: cover;
+                width: 70px;
+                margin-right: 8px;
+            }
+        }
+    }
+
+}
+
+// Section Testimonial
+.section-testimonial {
+    height: 510px;
+    background: linear-gradient(white, #F7F9FF);
+
+    .section-testimonial-header {
+        margin: auto;
+        text-align: center;
+        color: $dark_blue_color_primary;
+
+        h1 {
+            font-family: $playFairDisplay_font;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .section-testimonial-card {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        background-color: $white_color;
+        border-radius: 8px;
+        color: #6E6E6E;
+        text-align: center;
+        outline: none;
+
+        .card-profile-pic {
+            margin-top: 30px;
+            img {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                background-size: cover;
+                object-fit: cover;
+            }
+        }
+
+        .card-name {
+            color: $dark_blue_color_primary;
+            margin-top: 18px;
+            font-size: 22px;
+        }
+
+        .card-message {
+            margin: 0px 24px 20px 24px;
+            min-height: 150px;
+            max-height: 154px;
+            font-size: 24px;
+            font-weight: lighter;
+        }
+
+        .card-footer {
+            padding: 26px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
 }
