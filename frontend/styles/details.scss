@@ -1,0 +1,99 @@
+$white_color : #FFFFFF;
+$assistant_font : 'Assistant',
+sans-serif;
+$playFairDisplay_font : 'Playfair Display',
+serif;
+$dark_blue_color_primary :#071C4D;
+$dark_blue_color_primary_button :#03045e;
+$dark_blue_color_primary_button_hover :#14213d;
+$dark_blue_color_secondary : #051334;
+$grey_color_bg : #E4E6EB;
+$grey_color_font : #B1B1B1;
+$light_grey_color_button : #F2F2F2;
+$dark_grey_color_button : #757575;
+$orange_color : #fb8500;
+$orange_color_hover : #c26b09;
+
+.section-details-header {
+    margin-top: -80px;
+    height: 310px;
+    background: $grey_color_bg;
+}
+
+.section-details-content {
+    margin-top: -200px;
+
+    .breadcrumb {
+        display: inline-flex;
+        background: $light_grey_color_button;
+        padding: 20px;
+        border-radius: 30px;
+        color: $dark_blue_color_primary;
+        margin-bottom: 50px;
+
+        .breadcrumb-item {
+            &.active {
+                color: $dark_blue_color_primary;
+            font-weight: bold;
+            }
+        }
+    }
+
+    .card-details {
+        padding: 30px;
+        border-radius: 12px;
+
+        h3, h4, h5 {
+            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 26px;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        p {
+            color: $grey_color_font;
+            font-size: 18px;
+        }
+
+        .features {
+            margin-top: 30px;
+
+            img {
+                width: 45px;
+                height: 45px;
+                background-size: cover;
+                object-fit: cover;
+                float: left;
+            }
+
+            h5 {
+                margin-bottom: 0px;
+                color: $dark_blue_color_primary;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .description {
+                margin-left: 10px;
+                float: left;
+                overflow: hidden;
+            }
+
+            .border-left {
+                color: $dark_grey_color_button;
+                border-radius: 5px;
+            }
+        }
+    }
+}
