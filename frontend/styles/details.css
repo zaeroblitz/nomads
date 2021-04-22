@@ -177,42 +177,42 @@ main {
   color: #B1B1B1;
 }
 
-.section-details-content .card-informations .checkout-informations .payment-instructions p {
+.section-details-content .card-informations .payment-instructions p {
   font-size: 14px;
 }
 
-.section-details-content .card-informations .checkout-informations .payment-method td {
+.section-details-content .card-informations .payment-method td {
   color: #071C4D;
   font-size: 16px;
 }
 
-.section-details-content .card-informations .checkout-informations .payment-method .bank-item .bank-icon {
+.section-details-content .card-informations .payment-method .bank-item .bank-icon {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   float: left;
 }
 
-.section-details-content .card-informations .checkout-informations .payment-method .bank-item .description {
+.section-details-content .card-informations .payment-method .bank-item .description {
   margin-left: 10px;
   float: left;
 }
 
-.section-details-content .card-informations .checkout-informations .payment-method .bank-item .description h5 {
+.section-details-content .card-informations .payment-method .bank-item .description h5 {
   font-size: 16px;
   margin-bottom: 0px;
 }
 
-.section-details-content .card-informations .checkout-informations .payment-method .bank-item .description p {
+.section-details-content .card-informations .payment-method .bank-item .description p {
   font-size: 14px;
 }
 
-.section-details-content .card-informations .checkout-informations .text-blue {
+.section-details-content .card-informations .text-blue {
   font-weight: bold;
   color: #071C4D;
 }
 
-.section-details-content .card-informations .checkout-informations .text-orange {
+.section-details-content .card-informations .text-orange {
   font-weight: bold;
   color: #fb8500;
 }

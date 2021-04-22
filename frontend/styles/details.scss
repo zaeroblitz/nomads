@@ -204,55 +204,54 @@ main {
             color: $grey_color_font;
         }
 
-        .checkout-informations {
-            .payment-instructions {
-                p {
-                    font-size: 14px;
-                }
-            }
-
-            .payment-method {
-                td {
-                    color: $dark_blue_color_primary;
-                    font-size: 16px;
-                }
-
-                .bank-item {
-                    .bank-icon {
-                        width: 45px;
-                        height: 45px;
-                        border-radius: 50%;
-                        float: left;
-                    }
-
-                    .description {
-                        margin-left: 10px;
-                        float: left;
-
-                        h5 {
-                            font-size: 16px;
-                            margin-bottom: 0px;
-                        }
-
-                        p {
-                            font-size: 14px;
-                        }
-                    }
-                }
-
-            }
-
-            .text-blue {
-                font-weight: bold;
-                color: $dark_blue_color_primary;
-            }
-
-            .text-orange {
-                font-weight: bold;
-                color: $orange_color;
+        .payment-instructions {
+            p {
+                font-size: 14px;
             }
         }
+
+        .payment-method {
+            td {
+                color: $dark_blue_color_primary;
+                font-size: 16px;
+            }
+
+            .bank-item {
+                .bank-icon {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    float: left;
+                }
+
+                .description {
+                    margin-left: 10px;
+                    float: left;
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 0px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+
+        }
+
+        .text-blue {
+            font-weight: bold;
+            color: $dark_blue_color_primary;
+        }
+
+        .text-orange {
+            font-weight: bold;
+            color: $orange_color;
+        }
     }
+
 
     .btn-join {
         width: 85%;
