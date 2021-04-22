@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  margin-bottom: 150px;
+}
+
 .section-details-header {
   margin-top: -80px;
   height: 310px;
@@ -120,6 +124,10 @@ body {
   border-radius: 12px;
 }
 
+.section-details-content .card-details .note p {
+  font-size: 14px;
+}
+
 .section-details-content .gallery {
   margin-bottom: 12px;
 }
@@ -169,16 +177,71 @@ body {
   color: #B1B1B1;
 }
 
+.section-details-content .card-informations .checkout-informations .payment-instructions p {
+  font-size: 14px;
+}
+
+.section-details-content .card-informations .checkout-informations .payment-method td {
+  color: #071C4D;
+  font-size: 16px;
+}
+
+.section-details-content .card-informations .checkout-informations .payment-method .bank-item .bank-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+}
+
+.section-details-content .card-informations .checkout-informations .payment-method .bank-item .description {
+  margin-left: 10px;
+  float: left;
+}
+
+.section-details-content .card-informations .checkout-informations .payment-method .bank-item .description h5 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+.section-details-content .card-informations .checkout-informations .payment-method .bank-item .description p {
+  font-size: 14px;
+}
+
+.section-details-content .card-informations .checkout-informations .text-blue {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.section-details-content .card-informations .checkout-informations .text-orange {
+  font-weight: bold;
+  color: #fb8500;
+}
+
 .section-details-content .btn-join {
-  width: 92%;
+  width: 85%;
   padding: 10px;
   color: #FFFFFF;
   background-color: #fb8500;
   border-radius: 12px;
+  font-weight: bold;
 }
 
 .section-details-content .btn-join:hover {
   color: #FFFFFF;
   background-color: #c26b09;
+  font-weight: bold;
+}
+
+.section-details-content .btn-cancel {
+  width: 70%;
+  padding: 10px;
+  color: #B1B1B1;
+  background-color: #F2F2F2;
+  border-radius: 12px;
+}
+
+.section-details-content .btn-cancel:hover {
+  color: #F2F2F2;
+  background-color: #757575;
 }
 /*# sourceMappingURL=details.css.map */

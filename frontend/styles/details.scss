@@ -18,6 +18,10 @@ body {
     overflow-x: hidden;
 }
 
+main {
+    margin-bottom: 150px;
+}
+
 // Header Background
 .section-details-header {
     margin-top: -80px;
@@ -140,6 +144,10 @@ body {
             padding: 12px 12px 0px 18px;
             background-color: $grey_color_bg;
             border-radius: 12px;
+
+            p {
+                font-size: 14px;
+            }
         }
     }
 
@@ -195,18 +203,82 @@ body {
             text-align: right;
             color: $grey_color_font;
         }
+
+        .checkout-informations {
+            .payment-instructions {
+                p {
+                    font-size: 14px;
+                }
+            }
+
+            .payment-method {
+                td {
+                    color: $dark_blue_color_primary;
+                    font-size: 16px;
+                }
+
+                .bank-item {
+                    .bank-icon {
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+                        float: left;
+                    }
+
+                    .description {
+                        margin-left: 10px;
+                        float: left;
+
+                        h5 {
+                            font-size: 16px;
+                            margin-bottom: 0px;
+                        }
+
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+            }
+
+            .text-blue {
+                font-weight: bold;
+                color: $dark_blue_color_primary;
+            }
+
+            .text-orange {
+                font-weight: bold;
+                color: $orange_color;
+            }
+        }
     }
 
     .btn-join {
-        width: 92%;
+        width: 85%;
         padding: 10px;
         color: $white_color;
         background-color: $orange_color;
         border-radius: 12px;
+        font-weight: bold;
 
         &:hover {
             color: $white_color;
             background-color: $orange_color_hover;
+            font-weight: bold;
+        }
+    }
+
+    .btn-cancel {
+        width: 70%;
+        padding: 10px;
+        color: $grey_color_font;
+        background-color: $light_grey_color_button;
+        border-radius: 12px;
+
+        &:hover {
+            color: $light_grey_color_button;
+            background-color: $dark_grey_color_button;
         }
     }
 
