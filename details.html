@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
     <link rel="stylesheet" href="frontend/styles/main.css" />
     <link rel="stylesheet" href="frontend/styles/details.css">
 </head>
@@ -85,7 +86,28 @@
                             <h3>Nusa Penida</h3>
                             <p>Republic of Indonesia Raya</p>
 
-                            <div class="gallery"></div>
+                            <div class="gallery">
+                                <div class="xzoom-container">
+                                    <img src="frontend/images/NusaPenida1Original.png" class="xzoom" id="xzoom-default" xoriginal="frontend/images/NusaPenida1Original.png">
+                                </div>
+                                <div class="xzoom-thumbnails">
+                                    <a href="frontend/images/NusaPenida1Original.png">
+                                        <img src="frontend/images/NusaPenida1Preview.png" class="xzoom-gallery" width="120" xpreview="frontend/images/NusaPenida1Original.png">
+                                    </a>
+                                    <a href="frontend/images/NusaPenida2Original.jpg">
+                                        <img src="frontend/images/NusaPenida2Preview.png" class="xzoom-gallery" width="120" xpreview="frontend/images/NusaPenida2Original.jpg">
+                                    </a>
+                                    <a href="frontend/images/NusaPenida3Original.jpg">
+                                        <img src="frontend/images/NusaPenida3Preview.png" class="xzoom-gallery" width="120" xpreview="frontend/images/NusaPenida3Original.jpg">
+                                    </a>
+                                    <a href="frontend/images/NusaPenida4Original.jpg">
+                                        <img src="frontend/images/NusaPenida4Preview.png" class="xzoom-gallery" width="120" xpreview="frontend/images/NusaPenida4Original.jpg">
+                                    </a>
+                                    <a href="frontend/images/NusaPenida5Original.jpg">
+                                        <img src="frontend/images/NusaPenida5Preview.png" class="xzoom-gallery" width="120" xpreview="frontend/images/NusaPenida5Original.jpg">
+                                    </a>
+                                </div>
+                            </div>
 
                             <h4>Tentang Wisata</h4>
                             <p>
@@ -194,6 +216,17 @@
     <script src="frontend/libraries/jquery-3.6.0.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15,
+            });
+        });
+    </script>
 
 </body>
 

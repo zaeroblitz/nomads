@@ -14,6 +14,11 @@ $dark_grey_color_button : #757575;
 $orange_color : #fb8500;
 $orange_color_hover : #c26b09;
 
+body {
+    overflow-x: hidden;
+}
+
+// Header Background
 .section-details-header {
     margin-top: -80px;
     height: 310px;
@@ -23,6 +28,7 @@ $orange_color_hover : #c26b09;
 .section-details-content {
     margin-top: -200px;
 
+    // Breadcrumb
     .breadcrumb {
         display: inline-flex;
         background: $light_grey_color_button;
@@ -34,16 +40,19 @@ $orange_color_hover : #c26b09;
         .breadcrumb-item {
             &.active {
                 color: $dark_blue_color_primary;
-            font-weight: bold;
+                font-weight: bold;
             }
         }
     }
 
+    // Card
     .card-details {
         padding: 30px;
         border-radius: 12px;
 
-        h3, h4, h5 {
+        h3,
+        h4,
+        h5 {
             font-weight: 600;
         }
 
@@ -93,6 +102,43 @@ $orange_color_hover : #c26b09;
             .border-left {
                 color: $dark_grey_color_button;
                 border-radius: 5px;
+            }
+        }
+    }
+
+    // Gallery
+    .gallery {
+        margin-bottom: 30px;
+
+        .xzoom-container {
+            display: block;
+
+            .xzoom {
+                width: 660px;
+                height: 350px;
+                object-fit: cover;
+                background-size: cover;
+                box-shadow: none;
+                border-radius: 6px;
+                margin-bottom: 12px;
+            }
+
+            .xactive {
+                border: 4px solid #1ABC9C;
+                box-shadow: none;
+            }
+        }
+
+        .xzoom-thumbnails {
+
+            .xzoom-gallery {
+                box-shadow: none;
+                border-radius: 6px;
+            }
+
+            .xactive {
+                border: 4px solid #1ABC9C;
+                box-shadow: none;
             }
         }
     }
