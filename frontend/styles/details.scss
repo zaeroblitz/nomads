@@ -45,8 +45,8 @@ body {
         }
     }
 
-    // Card
-    .card-details {
+    // Card Details
+    .card {
         padding: 30px;
         border-radius: 12px;
 
@@ -72,6 +72,9 @@ body {
             color: $grey_color_font;
             font-size: 18px;
         }
+    }
+
+    .card-details {
 
         .features {
             margin-top: 30px;
@@ -108,10 +111,9 @@ body {
 
     // Gallery
     .gallery {
-        margin-bottom: 30px;
+        margin-bottom: 12px;
 
         .xzoom-container {
-            display: block;
 
             .xzoom {
                 width: 660px;
@@ -142,4 +144,36 @@ body {
             }
         }
     }
+
+    .card-informations {
+        img {
+            margin-right: 8px;
+
+        }
+
+        th {
+            text-align: left;
+            font-weight: 400;
+            color: $dark_blue_color_primary;
+        }
+
+        td {
+            text-align: right;
+            color: $grey_color_font;
+        }
+    }
+
+    .btn-join {
+        width: 92%;
+        padding: 10px;
+        color: $white_color;
+        background-color: $orange_color;
+        border-radius: 12px;
+
+        &:hover {
+            color: $white_color;
+            background-color: $orange_color_hover;
+        }
+    }
+
 }
