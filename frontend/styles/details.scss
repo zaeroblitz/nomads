@@ -107,6 +107,40 @@ body {
                 border-radius: 5px;
             }
         }
+
+        .member-checkout {
+            border: none;
+
+            .member-photo {
+                img {
+                    width: 60px;
+                    height: 60px;
+                    object-fit: cover;
+                    background-size: cover;
+                }
+            }
+        }
+
+        .add-member {
+            .btn-add-now {
+                padding-left: 20px;
+                padding-right: 20px;
+                color: $white_color;
+                background-color: $dark_blue_color_primary_button;
+
+                &:hover {
+                    color: $white_color;
+                    background-color: $dark_blue_color_primary_button_hover;
+                }
+            }
+        }
+
+        .note {
+            width: 80%;
+            padding: 12px 12px 0px 18px;
+            background-color: $grey_color_bg;
+            border-radius: 12px;
+        }
     }
 
     // Gallery
